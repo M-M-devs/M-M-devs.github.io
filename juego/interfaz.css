@@ -37,3 +37,62 @@ body{
     font-size: 19px;
     color: rgb(73, 32, 108);
 }
+
+.button-instrucciones {
+    cursor: pointer;
+}
+
+.wrap-instrucciones {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: fit-content;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(73, 32, 108);
+}
+
+.instrucciones {
+    display: none;
+    margin: auto;
+    padding: 10px 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.698);
+    border: 2px solid rgb(73, 32, 108);
+    border-radius: 10px;
+}
+
+.wrap-button {
+    padding: 0;
+    margin: 0 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.instrucciones-button{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(73, 32, 108);
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid rgb(73, 32, 108);
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.instrucciones-button:hover {
+    color: rgb(73, 32, 108);
+    background-color: white;
+    transition: 0.5s;
+}
+
+#abrirInstrucciones {
+    margin-top: 10px;
+}
