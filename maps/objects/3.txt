@@ -1,0 +1,5 @@
+X X X X T
+T X X X G
+P X G X X
+G X X X G
+T X X X T 

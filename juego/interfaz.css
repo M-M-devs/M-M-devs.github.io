@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    overflow: hidden; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.level-select{
+    position: absolute;
+    bottom: 0;
+}
+
+.info-juego{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    margin: 10px;
+}
+
+.wrap-texto-info, .gemas{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(73, 32, 108);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.gemas img{
+    margin: 0 5px;
+    height: 20px;
+}
+
+.texto-info{
+    margin:0 5px;
+    font-size: 19px;
+    color: rgb(73, 32, 108);
+}

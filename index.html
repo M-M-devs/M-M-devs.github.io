@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Tiles Puzzle</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="libs/jquery.js"></script>
+    <script type="module" src="juego/MyScene.js"></script>        
+
+    <link href="juego/interfaz.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <!-- Div which will show statistical information -->
+        <div id="Stats-output">
+        </div>
+    
+        <div class="info-juego" id="info-juego">
+            <span class="wrap-texto-info">
+                <span class="texto-info">
+                    <span id="nivel"></span>
+                </span>
+            </span>
+
+            <span class="gemas">
+                <img src="images/gem.png">
+                <div id="gemas-recogidas">
+                    <span class="texto-info">
+                        <span id="gemas"></span>
+                    </span>
+                </div>
+            </span>
+           
+            <span class="wrap-texto-info">
+                <span class="texto-info">
+                    <span id="numMovimientos"></span>
+                </span>
+            </span>
+        </div>
+    </header>    
+
+<!-- Div which will hold the Output -->
+<div id="WebGL-output">
+</div>
+</body>
+</html>
